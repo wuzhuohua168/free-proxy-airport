@@ -14,13 +14,11 @@ https://sunmiao4458.github.io/free-proxy-airport/clash.yaml
 
 工作流名称：`AI Self-Healing Proxy v7`
 
-节点源：
-
-- openRunner clash-freenode
-- snakem982 proxypool
-- Flikify Free Node
-- free-clash-v2ray GitHub Pages
-
+节点
+- Shadowrocket: https://wuzhuohua168.github.io/free-proxy-airport/rocket.txt
+- Clash: https://wuzhuohua168.github.io/free-proxy-airport/clash.yaml
+- V2Ray: https://wuzhuohua168.github.io/free-proxy-airport/v2ray.txt
+  
 核心能力：
 
 - 真实测速和 timeout 自动剔除
