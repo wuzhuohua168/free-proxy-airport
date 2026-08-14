@@ -34,7 +34,7 @@ SOURCE_TIMEOUT = 25
 LATENCY_TIMEOUT_MS = 5000
 MAX_RETRIES = 3
 MAX_WORKERS = int(os.getenv("FREE_PROXY_AIRPORT_MAX_WORKERS", "24"))
-MAX_CANDIDATES = int(os.getenv("FREE_PROXY_AIRPORT_MAX_CANDIDATES", "0"))
+MAX_CANDIDATES = int(os.getenv("FREE_PROXY_AIRPORT_MAX_CANDIDATES", "500"))
 
 SOURCE_GROUPS = [
     {
@@ -67,6 +67,21 @@ SOURCE_GROUPS = [
         "fallbacks": [
             "discover:free-clash-v2ray",
         ],
+    },
+    {
+        "name": "PuddinCat BestClash",
+        "primary": "https://raw.githubusercontent.com/PuddinCat/BestClash/refs/heads/main/proxies.yaml",
+        "fallbacks": [],
+    },
+    {
+        "name": "dongchengjie airport",
+        "primary": "https://raw.githubusercontent.com/dongchengjie/airport/refs/heads/main/subs/merged/tested_within.yaml",
+        "fallbacks": [],
+    },
+    {
+        "name": "zhuhaiuk free-nodes",
+        "primary": "https://raw.githubusercontent.com/zhuhaiuk/free-nodes/main/clash_config.yaml",
+        "fallbacks": [],
     },
 ]
 
