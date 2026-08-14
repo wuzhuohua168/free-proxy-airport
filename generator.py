@@ -851,6 +851,13 @@ def _vmess_to_uri(proxy: dict[str, Any]) -> str:
     uuid = str(proxy.get("uuid", ""))
     name = str(proxy.get("name", ""))
 
+    # 修正 tls 字段：Clash YAML 中 tls 可能是 True/False 布尔值
+    tls_val = proxy.get("tls", "")
+    if tls_val is True:
+        tls_val = "tls"
+    elif tls_val is False:
+        tls_val = ""
+
     config = {
         "v": "2",
         "ps": name,
@@ -863,7 +870,7 @@ def _vmess_to_uri(proxy: dict[str, Any]) -> str:
         "type": str(proxy.get("type", "none")),
         "host": str(proxy.get("host", proxy.get("ws-opts", {}).get("headers", {}).get("Host", "") if isinstance(proxy.get("ws-opts"), dict) else "")),
         "path": str(proxy.get("path", proxy.get("ws-opts", {}).get("path", "/") if isinstance(proxy.get("ws-opts"), dict) else "/")),
-        "tls": str(proxy.get("tls", "")),
+        "tls": str(tls_val),
         "sni": str(proxy.get("sni", proxy.get("servername", ""))),
         "alpn": str(proxy.get("alpn", "")),
         "fp": str(proxy.get("fp", proxy.get("fingerprint", ""))),
@@ -877,10 +884,17 @@ def _vless_to_uri(proxy: dict[str, Any]) -> str:
     port = proxy.get("port", 0)
     name = str(proxy.get("name", ""))
 
+    # 修正 tls 字段：Clash YAML 中 tls 可能是 True/False 布尔值
+    tls_val = proxy.get("tls", "none")
+    if tls_val is True:
+        tls_val = "tls"
+    elif tls_val is False:
+        tls_val = "none"
+
     params = []
     params.append(f"type={proxy.get('network', 'tcp')}")
-    params.append(f"security={proxy.get('tls', 'none')}")
-    if proxy.get("tls") == "reality":
+    params.append(f"security={tls_val}")
+    if tls_val == "reality":
         params.append(f"flow={proxy.get('flow', '')}")
         params.append(f"pbk={proxy.get('pbk', '')}")
         params.append(f"sid={proxy.get('sid', '')}")
@@ -888,7 +902,13 @@ def _vless_to_uri(proxy: dict[str, Any]) -> str:
         params.append(f"path={proxy.get('path', '/')}")
         params.append(f"host={proxy.get('host', '')}")
     if proxy.get("sni"):
-        params.append(f"sni={proxy.get('sni')}")
+        sni = str(proxy.get("sni", ""))
+        # 清理 sni：移除协议前缀和路径，只保留域名
+        sni = sni.replace("https://", "").replace("http://", "")
+        sni = sni.split("/")[0].split("#")[0]
+        sni = "".join(c for c in sni if ord(c) < 128)  # 去除非ASCII字符
+        if sni:
+            params.append(f"sni={sni}")
     params.append(f"encryption={proxy.get('encryption', 'none')}")
     params.append(f"fp={proxy.get('fp', proxy.get('fingerprint', ''))}")
 
@@ -921,7 +941,13 @@ def _hysteria_to_uri(proxy: dict[str, Any]) -> str:
     if proxy.get("insecure"):
         params.append("insecure=1")
     if proxy.get("sni"):
-        params.append(f"sni={proxy.get('sni')}")
+        sni = str(proxy.get("sni", ""))
+        # 清理 sni：移除协议前缀和路径，只保留域名
+        sni = sni.replace("https://", "").replace("http://", "")
+        sni = sni.split("/")[0].split("#")[0]
+        sni = "".join(c for c in sni if ord(c) < 128)  # 去除非ASCII字符
+        if sni:
+            params.append(f"sni={sni}")
 
     query = "?" + "&".join(params) if params else ""
 
