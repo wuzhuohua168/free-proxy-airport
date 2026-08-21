@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-08-14T06:37:36.053457+00:00'
+generated-at: '2026-08-21T06:23:29.294396+00:00'
 proxies:
 - cipher: aes-128-gcm
   name: jp|d00a|puddincat07@Telegram
@@ -727,16 +727,6 @@ proxies:
     grpc-mode: gun
     grpc-service-name: 5post.gate.v1
   udp: true
-- name: 🇩🇰 丹麦 | DNK
-  server: dk86.mechvpn.online
-  port: 443
-  type: hysteria2
-  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
-  auth: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
-  sni: dk86.mechvpn.online
-  skip-cert-verify: true
-  alpn:
-  - h3
 - name: 🇩🇪 德国 | DEU 5
   server: tsarlive.dpdns.org
   port: 443
@@ -754,6 +744,16 @@ proxies:
     headers:
       Host: tsarlive.dpdns.org
   udp: true
+- name: 🇩🇰 丹麦 | DNK
+  server: dk86.mechvpn.online
+  port: 443
+  type: hysteria2
+  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+  auth: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+  sni: dk86.mechvpn.online
+  skip-cert-verify: true
+  alpn:
+  - h3
 - name: 🇫🇷 法国-DFCE0B65
   type: trojan
   server: 198.62.62.23
@@ -838,6 +838,15 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: /assignment
+- alterId: 2
+  cipher: auto
+  name: xx|8151|puddincat07@Telegram
+  port: 30807
+  server: v10.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 🇰🇷 韩国-01958B5F
   type: vmess
   server: 140.238.2.250
@@ -850,15 +859,6 @@ proxies:
   network: none
   skip-cert-verify: true
   uuid: 41a7089a-040b-4538-8b8d-010902405bde
-- alterId: 2
-  cipher: auto
-  name: xx|8151|puddincat07@Telegram
-  port: 30807
-  server: v10.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 🇩🇪 德国 | DEU 6
   server: 162.35.231.6
   port: 443
@@ -1034,13 +1034,6 @@ proxies:
     headers:
       Host: pane2.global.ssl.fastly.net
   udp: true
-- name: 🇨🇴 哥伦比亚 | COL
-  server: 157.137.231.23
-  port: 62145
-  type: vless
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-  tls: false
-  network: tcp
 - name: 🇩🇪 德国 | DEU 9
   server: srvhy1.ezcon24.online
   port: 8443
@@ -1049,6 +1042,13 @@ proxies:
   auth: 553e3253-c454-431d-a7e6-42bc06ea5e14
   sni: srvhy1.ezcon24.online
   skip-cert-verify: true
+- name: 🇨🇴 哥伦比亚 | COL
+  server: 157.137.231.23
+  port: 62145
+  type: vless
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+  tls: false
+  network: tcp
 - name: 🇪🇸 西班牙 | ESP 2
   server: 185.18.250.252
   port: 443
@@ -1110,6 +1110,14 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: /assignment
+- name: 🇨🇳 中国-D0742003
+  type: hysteria2
+  server: 103.115.109.49
+  port: 443
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  skip-cert-verify: true
+  sni: https://t.me/WangCai2🇨🇳
+  tfo: false
 - name: 🇳🇱 荷兰 | NLD 3
   server: one-for-all.levikogjgfdd.ir
   port: 2087
@@ -1124,14 +1132,6 @@ proxies:
     headers:
       Host: levikoconfig.levikogjgfdd.ir
   udp: true
-- name: 🇨🇳 中国-D0742003
-  type: hysteria2
-  server: 103.115.109.49
-  port: 443
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  skip-cert-verify: true
-  sni: https://t.me/WangCai2🇨🇳
-  tfo: false
 - name: 🏁 未知-4DC3BE7F
   type: hysteria2
   server: 13.229.110.73
@@ -1327,8 +1327,8 @@ proxy-groups:
   - 🏁 未知-91A471F0
   - 🇱🇻 拉脱维亚 | LVA 3
   - 🇩🇪 德国 | DEU 19
-  - 🇩🇰 丹麦 | DNK
   - 🇩🇪 德国 | DEU 5
+  - 🇩🇰 丹麦 | DNK
   - 🇫🇷 法国-DFCE0B65
   - 🇩🇪 德国 | DEU 20
   - 🇩🇪 德国 | DEU 15
@@ -1337,8 +1337,8 @@ proxy-groups:
   - 🏁 未知-798A29E5
   - 🇰🇷 韩国-ADFE686B
   - 🏁 未知-25F9DE91
-  - 🇰🇷 韩国-01958B5F
   - xx|8151|puddincat07@Telegram
+  - 🇰🇷 韩国-01958B5F
   - 🇩🇪 德国 | DEU 6
   - 🏁 未知-920029F2
   - nl|7363|puddincat07@Telegram
@@ -1353,15 +1353,15 @@ proxy-groups:
   - 🏁 未知-35C70B5E
   - 🏁 未知-E7AD2A46
   - 🇳🇱 荷兰 | NLD 2
-  - 🇨🇴 哥伦比亚 | COL
   - 🇩🇪 德国 | DEU 9
+  - 🇨🇴 哥伦比亚 | COL
   - 🇪🇸 西班牙 | ESP 2
   - 🇱🇻 拉脱维亚 | LVA 2
   - 🇩🇪 德国 | DEU
   - 🏁 未知-67CFFED2
   - 🏁 未知-ED24FFFD
-  - 🇳🇱 荷兰 | NLD 3
   - 🇨🇳 中国-D0742003
+  - 🇳🇱 荷兰 | NLD 3
   - 🏁 未知-4DC3BE7F
   - 🏁 未知-0A0CB67C
   - 🇨🇦 加拿大-9216A510
@@ -1426,27 +1426,27 @@ proxy-groups:
 - name: AI-POOL
   type: url-test
   proxies:
-  - xx|0db7|puddincat07@Telegram
-  - 🇨🇴 哥伦比亚 | COL 3
-  - 🇨🇴 哥伦比亚 | COL
   - jp|d00a|puddincat07@Telegram
-  - 🇰🇷 韩国-01958B5F
+  - 🇭🇰 香港 | HKG 7
   - 🇯🇵 日本-24FE6D00
-  - 🇳🇱 荷兰 | NLD 5
-  - 🇸🇪 瑞典 | SWE
-  - 🇺🇸 美国 | USA 5
-  - 🇰🇷 韩国-ADFE686B
-  - 🇺🇸 美国 | USA 27
+  - 🇭🇰 香港-1E3D1CFC
+  - 🇸🇬 新加坡 | SGP 5
+  - 🇭🇰 香港 | HKG 3
+  - 🇭🇰 香港-C6E7A7E9
+  - 🇭🇰 香港 | HKG 5
+  - 🇸🇬 新加坡 | SGP
+  - 🇯🇵 日本-CC40E05D
+  - 🇭🇰 香港 | HKG
+  - 🇺🇸 美国-2844BECE
+  - us|b395|puddincat07@Telegram
+  - us|9165|puddincat07@Telegram
+  - 🇺🇸 美国 | USA 20
+  - 🇺🇸 美国 | USA 21
   - 🇺🇸 美国 | USA 8
-  - 🇰🇷 韩国-B33A9C54
-  - 🇺🇸 美国 | USA 22
-  - 🇩🇪 德国 | DEU 20
-  - 🇬🇧 英国 | GBR 2
   - 🇺🇸 美国 | USA 33
-  - 🏁 未知-00F323AE
-  - 🏁 未知-BBDB37ED
-  - 🏁 未知-35C70B5E
-  - 🏁 未知-0A0CB67C
+  - 🇺🇸 美国 | USA 16
+  - 🇺🇸 美国 | USA 34
+  - 🇺🇸 美国 | USA 6
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: FALLBACK
