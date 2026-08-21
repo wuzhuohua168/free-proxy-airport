@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-08-21T08:04:57.356990+00:00'
+generated-at: '2026-08-21T09:06:58.964832+00:00'
 proxies:
 - cipher: aes-128-gcm
   name: jp|d00a|puddincat07@Telegram
