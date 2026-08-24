@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-08-24T05:10:38.410274+00:00'
+generated-at: '2026-08-24T06:02:43.048135+00:00'
 proxies:
 - name: 🇭🇰HK香港節點丨yoyapai.com_4
   type: vless
@@ -36,19 +36,6 @@ proxies:
   auth: bb7c0aa0966a031bb9184a64a52ce80e
   sni: www.bing.com
   skip-cert-verify: true
-- name: 🇸🇬 新加坡 | SGP 5
-  server: 104.18.32.47
-  port: 80
-  type: vless
-  uuid: bea3807d-4080-4078-a08d-747107a3426b
-  tls: false
-  servername: worker3.tacajop464.workers.dev
-  network: ws
-  ws-opts:
-    path: /rF4GstgkEkNbLD2B
-    headers:
-      Host: worker3.tacajop464.workers.dev
-  udp: true
 - name: 🇸🇬 新加坡 | SGP 10
   server: 129.226.157.220
   port: 59121
@@ -73,19 +60,6 @@ proxies:
   password: VCYBW8pH4z
   tls: false
   username: 2XPTvGKBjj
-- name: 🇭🇰HK香港節點丨yoyapai.com_5
-  type: vless
-  server: 91.193.58.93
-  port: 80
-  uuid: f2d55510-fa3c-4e3b-adfc-2d96fa399c19
-  network: ws
-  tls: false
-  ws-opts:
-    path: /pyip=Telegram🇨🇳+@WangCai2
-    headers:
-      Host: plain-darkness-90ea.259.workers.dev
-  skip-cert-verify: true
-  udp: true
 - name: 🇭🇰 香港-C6E7A7E9
   type: hysteria2
   server: 202.146.222.174
@@ -108,58 +82,17 @@ proxies:
   client-fingerprint: chrome
   network: tcp
   udp: true
-- name: 🇸🇬 新加坡 | SGP 7
-  server: 66.42.62.84
-  port: 443
+- name: 🇭🇰HK香港節點丨yoyapai.com_5
   type: vless
-  uuid: 389e0591-86d6-408f-bf24-18f611a0c94b
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: kxuW6rJkcKU88l_sgqezrcMFEy4yofrgouBoKufWASs
-    short-id: 2fadfe9a357ec21e
-  servername: www.apple.com
-  client-fingerprint: chrome
-  network: tcp
-- name: 🇸🇬 新加坡 | SGP
-  server: 172.64.152.23
+  server: 91.193.58.93
   port: 80
-  type: vless
-  uuid: bea3807d-4080-4078-a08d-747107a3426b
+  uuid: f2d55510-fa3c-4e3b-adfc-2d96fa399c19
+  network: ws
   tls: false
-  servername: worker3.tacajop464.workers.dev
-  network: ws
   ws-opts:
-    path: /rF4GstgkEkNbLD2B
+    path: /pyip=Telegram🇨🇳+@WangCai2
     headers:
-      Host: worker3.tacajop464.workers.dev
-  udp: true
-- name: 🇸🇬 新加坡 | SGP 8
-  server: 172.64.151.254
-  port: 2096
-  type: vless
-  uuid: 341832cc-ba98-425b-8225-b3db621a0da3
-  tls: true
-  servername: oyue.rainfall0705.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: oyue.rainfall0705.cc.cd
-  udp: true
-- name: 🇸🇬SG新加坡丨yoyapai.com_1
-  type: vless
-  server: 154.196.139.50
-  port: 443
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-  servername: asia.cendora.ru
-  tls: true
-  flow: xtls-rprx-vision
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: eaRNeC8fccrx0nBNvBpAXZgK4m4FxfnQ-t0W7NOM7mU
-    short-id: e53048e82bb20077
+      Host: plain-darkness-90ea.259.workers.dev
   skip-cert-verify: true
   udp: true
 - name: 🇸🇬 新加坡 | SGP 3
@@ -175,6 +108,20 @@ proxies:
     path: /?ed=2560
     headers:
       Host: vls.baiyi.cloudns.org
+  udp: true
+- name: 🇸🇬SG新加坡丨yoyapai.com_1
+  type: vless
+  server: 154.196.139.50
+  port: 443
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+  servername: asia.cendora.ru
+  tls: true
+  flow: xtls-rprx-vision
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: eaRNeC8fccrx0nBNvBpAXZgK4m4FxfnQ-t0W7NOM7mU
+    short-id: e53048e82bb20077
+  skip-cert-verify: true
   udp: true
 - name: 🇯🇵 日本-6783195D
   type: ss
@@ -205,18 +152,6 @@ proxies:
   auth: a7255862658f113e8d651df9bd75af28
   sni: www.bing.com
   skip-cert-verify: true
-- name: 🇸🇬 新加坡 | SGP 2
-  server: 104.18.34.245
-  port: 8880
-  type: vless
-  uuid: 0b01d4d8-656d-4d55-8ad5-ed2a362788b5
-  tls: false
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: square-tree-3dbf.285.workers.dev
-  udp: true
 - name: 🇺🇸美國丨yoyapai.com_1
   type: vless
   server: 162.159.156.214
@@ -230,18 +165,14 @@ proxies:
       Host: throbbing-moon-a07c.90-ec4.workers.dev
   skip-cert-verify: true
   udp: true
-- name: 🇺🇸 美国 | USA 11
-  server: 208.103.161.249
-  port: 80
-  type: vless
-  uuid: a3c51f71-ffb5-4c80-a136-cee4b36d6e85
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: kAmRaN01-aFgmDQ-1.KaMRan-01.wOrkeRs.DEv
-  udp: true
+- name: 🇺🇸 美国-2844BECE
+  type: hysteria2
+  server: hy2.123266.xyz
+  port: 33333
+  password: bce6c821-200d-421f-bf3d-7159e5246ea0
+  skip-cert-verify: true
+  sni: hy2.123266.xyz
+  tfo: false
 - name: 🇺🇸US美國丨yoyapai.com_6
   type: vless
   server: support.zoom.us
@@ -258,11 +189,11 @@ proxies:
   skip-cert-verify: true
   udp: true
 - client-fingerprint: chrome
-  name: us|ea36|puddincat07@Telegram
+  name: us|01ca|puddincat07@Telegram
   network: ws
   password: humanity
   port: 443
-  server: 104.17.111.1
+  server: 104.18.152.244
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
@@ -270,45 +201,7 @@ proxies:
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/40.0.2214.111 Safari/537.36
-    path: /assignment
-- name: 🇺🇸 美国-2844BECE
-  type: hysteria2
-  server: hy2.123266.xyz
-  port: 33333
-  password: bce6c821-200d-421f-bf3d-7159e5246ea0
-  skip-cert-verify: true
-  sni: hy2.123266.xyz
-  tfo: false
-- client-fingerprint: chrome
-  name: us|b395|puddincat07@Telegram
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.26.15.137
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/42.0.2311.90 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: us|cf65|puddincat07@Telegram
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.204
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/42.0.2311.90 Safari/537.36
+        Gecko) Chrome/37.0.2062.120 Safari/537.36
     path: /assignment
 - name: 🇺🇸 美国 | USA 7
   server: 172.64.146.211
@@ -342,6 +235,21 @@ proxies:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/49.0.2623.112 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: us|9f71|puddincat07@Telegram
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.17.111.8
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/50.0.2661.102 Safari/537.36
     path: /assignment
 - client-fingerprint: chrome
   name: us|cc28|puddincat07@Telegram
@@ -383,6 +291,21 @@ proxies:
       Host: fangbinxingnmsl.pusytroller.gq
   udp: true
 - client-fingerprint: chrome
+  name: us|2e5f|puddincat07@Telegram
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.23.63
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J700M Build/MMB29K) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
   name: us|246e|puddincat07@Telegram
   network: ws
   password: humanity
@@ -396,6 +319,21 @@ proxies:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
         Chrome/49.0.2623.112 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: us|1c92|puddincat07@Telegram
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.230
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.113 Safari/537.36
     path: /assignment
 - name: 🇺🇸 美国 | USA 13
   server: 172.67.152.71
@@ -424,19 +362,6 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
         Chrome/68.0.3440.106 Safari/537.36
     path: /assignment
-- name: 🇺🇸US美国丨yoyapai.com
-  type: trojan
-  server: 216.24.57.7
-  port: 443
-  password: humanity
-  sni: www.ignitelimit.com
-  alpn:
-  - http/1.1
-  skip-cert-verify: true
-  tls: true
-  ws-opts:
-    path: /assignment
-  udp: true
 - name: 🇺🇸 美國節點丨yoyapai.com
   type: vless
   server: 45.155.52.231
@@ -450,6 +375,19 @@ proxies:
     short-id: 0b
   skip-cert-verify: true
   udp: true
+- name: 🇺🇸US美国丨yoyapai.com
+  type: trojan
+  server: 216.24.57.7
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  alpn:
+  - http/1.1
+  skip-cert-verify: true
+  tls: true
+  ws-opts:
+    path: /assignment
+  udp: true
 - name: 🇺🇸 美国-185EF251
   type: hysteria2
   server: hy2-new.aspidnet.xyz
@@ -460,49 +398,20 @@ proxies:
   skip-cert-verify: true
   sni: hy2-new.aspidnet.xyz
   tfo: false
-- name: 🇺🇸 美国 | USA 15
-  server: 201.24.117.62
-  port: 14407
-  type: vless
-  uuid: a1bb74cc-38e8-49cf-ab05-59e9bdf7880c
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: ldAmsl3dqTCUBmlmA8CS9ZnpznP6cFWj9AxNddWnbxY
-    short-id: 1a2b3c4d5e6f7a8b
-  servername: vk.ru
-  client-fingerprint: chrome
-  network: tcp
-  udp: true
 - client-fingerprint: chrome
-  name: us|8d21|puddincat07@Telegram
+  name: us|98c8|puddincat07@Telegram
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.108
+  server: 104.18.152.133
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/52.0.2743.116 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: us|2fd2|puddincat07@Telegram
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.36
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/36.0.1985.125 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
     path: /assignment
 - name: 🇺🇸 美国 | USA 2
   server: 166.0.16.52
@@ -512,6 +421,21 @@ proxies:
   auth: 569354367bdf7f34d31bbf33760bf314
   sni: www.bing.com
   skip-cert-verify: true
+- client-fingerprint: chrome
+  name: us|2220|puddincat07@Telegram
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.67.149.60
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /assignment
 - name: 🇨🇦 加拿大 | CAN 2
   server: 16.52.46.12
   port: 443
@@ -519,26 +443,13 @@ proxies:
   cipher: aes-256-cfb
   password: amazonskr05
   udp: true
-- name: 🏴‍☠️ 未知地区 | Unknown
-  server: support.zoom.us.vltj.qzz.io
-  port: 443
-  type: vless
-  uuid: 506e4a91-1d05-5683-b84c-2113f673cb19
-  tls: true
-  servername: support.zoom.us.vltj.qzz.io
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /id-pusat
-    headers:
-      Host: support.zoom.us.vltj.qzz.io
-  udp: true
-- cipher: aes-256-cfb
-  name: gb|37b9|puddincat07@Telegram
-  password: amazonskr05
-  port: 443
-  server: 35.178.103.18
+- name: 🇰🇷 韩国 | KOR 2
+  server: 49.254.204.133
+  port: 1774
   type: ss
+  cipher: aes-256-cfb
+  password: 1234!@#$
+  udp: true
 - name: 🇨🇦CA加拿大丨yoyapai.com_5
   type: vless
   server: 104.21.23.72
@@ -550,19 +461,6 @@ proxies:
     path: /pyip=ProxyIP.SG.CMLiussss.net
     headers:
       Host: calm-haze-d105.21-7cd.workers.dev
-  skip-cert-verify: true
-  udp: true
-- name: ❓未知丨yoyapai.com_15
-  type: vless
-  server: 185.148.107.40
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime55.workers.dev
   skip-cert-verify: true
   udp: true
 - name: 🇳🇱 荷兰 | NLD
@@ -592,12 +490,6 @@ proxies:
   client-fingerprint: edge
   network: tcp
   udp: true
-- name: 🇨🇦 加拿大 | CAN
-  server: 15.222.248.181
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 🇰🇷 韩国 | KOR 3
   server: 121.46.230.138
   port: 65443
@@ -605,20 +497,27 @@ proxies:
   cipher: aes-256-cfb
   password: 7eadc6dbe2ae
   udp: true
-- name: 🇩🇰 丹麦 | DNK 2
-  server: 46.29.235.9
+- client-fingerprint: chrome
+  name: xx|c122|puddincat07@Telegram
+  network: ws
+  password: humanity
   port: 443
-  type: vless
-  uuid: d67af820-f54c-48ab-862c-19086357f276
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: dhLgVSqPBDrdbhyTS2j60LWZDGEZh-smkcjUNSic-WI
-    short-id: a1b2c3d4
-  servername: telegraf.lv
-  client-fingerprint: chrome
-  network: tcp
+  server: www.speedtest.org
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
   udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.63 Safari/537.36
+    path: /assignment
+- name: 🇨🇦 加拿大 | CAN
+  server: 15.222.248.181
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
 - name: 🏁 未知-91A471F0
   type: hysteria2
   server: 54.254.241.184
@@ -626,6 +525,14 @@ proxies:
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   skip-cert-verify: true
   sni: vpn-sg-001.fastervpn.world
+  tfo: false
+- name: 🏁 未知-798A29E5
+  type: hysteria2
+  server: 155.248.209.237
+  port: 33333
+  password: bce6c821-200d-421f-bf3d-7159e5246ea0
+  skip-cert-verify: true
+  sni: hy2.123266.xyz
   tfo: false
 - name: 🇮🇷 IR伊朗丨yoyapai.com
   type: vless
@@ -639,32 +546,6 @@ proxies:
     headers:
       Host: worker3.gigak25604.workers.dev
   skip-cert-verify: true
-  udp: true
-- name: 🇨🇦CA加拿大丨yoyapai.com_6
-  type: vless
-  server: 104.21.23.72
-  port: 8880
-  uuid: 30a88c40-581e-4952-aa4c-8af95686ede0
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: rapid-lab-95ef.173-74c.workers.dev
-  skip-cert-verify: true
-  udp: true
-- name: 🇩🇪 德国 | DEU 5
-  server: 45.131.212.61
-  port: 443
-  type: vless
-  uuid: 5322390f-20ee-49e4-9b38-51fc1b5a1758
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  servername: ai.sellflow.org
-  client-fingerprint: firefox
-  network: tcp
   udp: true
 - name: 🇵🇱PL波兰丨yoyapai.com
   type: vless
@@ -680,21 +561,18 @@ proxies:
     short-id: 00bca5982f82d083
   skip-cert-verify: true
   udp: true
-- name: 🏁 未知-798A29E5
-  type: hysteria2
-  server: 155.248.209.237
-  port: 33333
-  password: bce6c821-200d-421f-bf3d-7159e5246ea0
-  skip-cert-verify: true
-  sni: hy2.123266.xyz
-  tfo: false
-- name: 🇳🇱_NL荷蘭丨yoyapai.com
-  type: ss
-  server: 82.38.31.35
+- name: 🇩🇪 德国 | DEU 5
+  server: 45.131.212.61
   port: 443
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  skip-cert-verify: true
+  type: vless
+  uuid: 5322390f-20ee-49e4-9b38-51fc1b5a1758
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  servername: ai.sellflow.org
+  client-fingerprint: firefox
+  network: tcp
   udp: true
 - name: 🏁 未知-8015D2B7
   type: tuic
@@ -708,27 +586,27 @@ proxies:
   udp-relay-mode: quic
   uuid: 2d1ad594-80a4-4bfb-87a6-038e39701f51
   version: 5
-- name: 🇩🇪_德国丨yoyapai.com
+- name: 🇳🇱_NL荷蘭丨yoyapai.com
+  type: ss
+  server: 82.38.31.35
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  skip-cert-verify: true
+  udp: true
+- name: 🇨🇦CA加拿大丨yoyapai.com_6
   type: vless
-  server: 46.101.253.244
-  port: 2083
-  uuid: bba95b1f-f48c-454b-897b-a6c6bc307df1
+  server: 104.21.23.72
+  port: 8880
+  uuid: 30a88c40-581e-4952-aa4c-8af95686ede0
   network: ws
-  servername: edge.yzkvm.top
-  tls: true
-  client-fingerprint: chrome
+  tls: false
   ws-opts:
     path: /
     headers:
-      Host: edge.yzkvm.top
+      Host: rapid-lab-95ef.173-74c.workers.dev
   skip-cert-verify: true
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: ca|b394|puddincat07@Telegram
-  password: be6cbb46-ebb0-4726-9202-6a3bac1d0afb
-  port: 13345
-  server: 140.238.153.81
-  type: ss
 - name: 🇰🇷 韩国-01958B5F
   type: vmess
   server: 140.238.2.250
@@ -741,28 +619,6 @@ proxies:
   network: none
   skip-cert-verify: true
   uuid: 41a7089a-040b-4538-8b8d-010902405bde
-- name: 🇸🇪瑞典丨yoyapai.com
-  type: vless
-  server: 193.232.178.149
-  port: 8443
-  uuid: bba95b1f-f48c-454b-897b-a6c6bc307df1
-  network: ws
-  servername: edge.yzkvm.top
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: edge.yzkvm.top
-  skip-cert-verify: true
-  udp: true
-- name: 🇩🇪 德国 | DEU 8
-  server: 130.61.113.169
-  port: 59924
-  type: ss
-  cipher: 2022-blake3-chacha20-poly1305
-  password: TWbDvdQktmGst6N2Yc2/L5IC9e3+kttzFJOv6doxsPw=
-  udp: true
 - name: nl|7363|puddincat07@Telegram
   password: gf1:gfhysteria2024
   port: 443
@@ -770,32 +626,6 @@ proxies:
   skip-cert-verify: true
   sni: www.linux.com
   type: hysteria2
-  udp: true
-- name: 🇮🇹 意大利 | ITA
-  server: 104.105.78.231
-  port: 17780
-  type: vless
-  uuid: a06119a7-4f1a-4592-86d9-e050a332b2b3
-  tls: true
-  reality-opts:
-    public-key: CHNEnURyZzZ1OQwb5SD2Ze8K9eIY2oggyrV5FOIsU28
-    short-id: a0fbc54d937aaccb
-  servername: amp-api-edge.apps.apple.com
-  client-fingerprint: firefox
-  network: tcp
-  udp: true
-- name: ❓未知丨yoyapai.com_12
-  type: vless
-  server: 104.26.13.40
-  port: 8880
-  uuid: 875d3876-ab9a-4dd6-8a8d-bf57f03403aa
-  network: ws
-  tls: false
-  ws-opts:
-    path: /pyip=ProxyIP.JP.CMLiussss.net
-    headers:
-      Host: square-sea-01d1.339-be3.workers.dev
-  skip-cert-verify: true
   udp: true
 - name: 🇵🇱 波兰 | POL 2
   server: 45.198.96.210
@@ -825,6 +655,19 @@ proxies:
   client-fingerprint: firefox
   network: tcp
   udp: true
+- name: ❓未知丨yoyapai.com_12
+  type: vless
+  server: 104.26.13.40
+  port: 8880
+  uuid: 875d3876-ab9a-4dd6-8a8d-bf57f03403aa
+  network: ws
+  tls: false
+  ws-opts:
+    path: /pyip=ProxyIP.JP.CMLiussss.net
+    headers:
+      Host: square-sea-01d1.339-be3.workers.dev
+  skip-cert-verify: true
+  udp: true
 - name: 🇧🇷 巴西 | BRA
   server: 144.22.232.252
   port: 59319
@@ -845,12 +688,6 @@ proxies:
   servername: swe-one.letsgodance.site
   client-fingerprint: edge
   network: tcp
-- name: 🇬🇧 英国 | GBR 2
-  server: 13.135.73.177
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
 - name: 🇳🇱 荷兰 | NLD 6
   server: hys22.wba-pn.ru
   port: 443
@@ -868,32 +705,6 @@ proxies:
   skip-cert-verify: true
   tls: true
   udp: true
-- name: 🇫🇷法國丨yoyapai.com
-  type: vless
-  server: 94.140.0.100
-  port: 8880
-  uuid: 78e6619e-e82a-cd8d-b482-0973d8498305
-  network: ws
-  tls: false
-  ws-opts:
-    path: /sync
-    headers:
-      Host: silent-pine-a674.jfadwkglaugul.workers.dev
-  skip-cert-verify: true
-  udp: true
-- name: 🇳🇱 荷兰 | NLD 2
-  server: 172.239.237.246
-  port: 17780
-  type: vless
-  uuid: a06119a7-4f1a-4592-86d9-e050a332b2b3
-  tls: true
-  reality-opts:
-    public-key: CHNEnURyZzZ1OQwb5SD2Ze8K9eIY2oggyrV5FOIsU28
-    short-id: a0fbc54d937aaccb
-  servername: amp-api-edge.apps.apple.com
-  client-fingerprint: firefox
-  network: tcp
-  udp: true
 - name: 🇹🇭 泰国 | THA
   server: 103.169.67.34
   port: 65443
@@ -901,6 +712,31 @@ proxies:
   cipher: aes-256-cfb
   password: 7eadc6dbe2ae
   udp: true
+- name: 🇩🇪 德国 | DEU 9
+  server: 157.228.137.81
+  port: 443
+  type: hysteria2
+  password: 585b7bfe-6269-4149-ae22-ff07c57b5510
+  auth: 585b7bfe-6269-4149-ae22-ff07c57b5510
+  sni: msk2.nebuchadnezzar.ink
+  skip-cert-verify: true
+  obfs: salamander
+  obfs-password: Xydh1mcz51VQHbbJ
+- client-fingerprint: chrome
+  name: xx|0c76|puddincat07@Telegram
+  network: ws
+  password: humanity
+  port: 443
+  server: ip.myip2.qzz.io
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.7
+        (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
+    path: /assignment
 - name: 🇱🇻 拉脱维亚 | LVA 2
   server: hy2-netherlands.unlimited-access.ru
   port: 8443
@@ -909,20 +745,6 @@ proxies:
   auth: GSPOBvG-ZwYcBFMr0ekFGO_Zga3wK6v_
   sni: hy2-netherlands.unlimited-access.ru
   skip-cert-verify: true
-- name: 🇱🇻 拉脱维亚 | LVA
-  server: 195.123.210.168
-  port: 443
-  type: vless
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-  tls: true
-  flow: xtls-rprx-vision
-  reality-opts:
-    public-key: m6RDw1b8R4lCaRUIzhHpy6TtX2Dhk6nyby8dWzeQqA0
-    short-id: dd3ff38418d29d22
-  servername: eu-west.cendora.ru
-  client-fingerprint: qq
-  network: tcp
-  udp: true
 - name: 🇨🇳 中国-D0742003
   type: hysteria2
   server: 103.115.109.49
@@ -957,13 +779,6 @@ proxies:
   client-fingerprint: edge
   network: tcp
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: ru|322a|puddincat07@Telegram
-  password: MTFlN
-  port: 8388
-  server: 194.147.35.56
-  type: ss
-  udp: true
 - name: 🇬🇧 英国 | GBR
   server: 46.8.41.42
   port: 443
@@ -977,20 +792,6 @@ proxies:
   servername: uk1.panel11.ru
   client-fingerprint: firefox
   network: tcp
-  udp: true
-- name: 🇹🇭 Thailand泰国丨yoyapai.com
-  type: vless
-  server: 18.239.134.69
-  port: 80
-  uuid: de27291c-15a9-4256-9ba7-ad517569877e
-  network: ws
-  tls: false
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com
-  skip-cert-verify: true
   udp: true
 - name: 🏁 未知-6F72A411
   type: hysteria2
@@ -1014,6 +815,14 @@ proxies:
     headers:
       Host: 7wwwspeedtestnet.global.ssl.fastly.net
   udp: true
+- name: 🇰🇷 韩国-8C051E25
+  type: ss
+  server: p141.panda001.net
+  port: 4652
+  cipher: aes-256-cfb
+  password: qwerREWQ@@
+  skip-cert-verify: false
+  udp: false
 - name: 🇳🇱 荷兰 | NLD 5
   server: 138.124.98.115
   port: 443
@@ -1027,14 +836,6 @@ proxies:
   client-fingerprint: firefox
   network: tcp
   udp: true
-- name: 🇰🇷 韩国-8C051E25
-  type: ss
-  server: p141.panda001.net
-  port: 4652
-  cipher: aes-256-cfb
-  password: qwerREWQ@@
-  skip-cert-verify: false
-  udp: false
 - name: 🇰🇷 韩国-B33A9C54
   type: ss
   server: 218.237.185.230
@@ -1050,91 +851,74 @@ proxy-groups:
   - 🇭🇰HK香港節點丨yoyapai.com_4
   - 🇯🇵 日本-24FE6D00
   - 🇯🇵 日本 | JPN 5
-  - 🇸🇬 新加坡 | SGP 5
   - 🇸🇬 新加坡 | SGP 10
   - 🇭🇰 香港-1E3D1CFC
-  - 🇭🇰HK香港節點丨yoyapai.com_5
   - 🇭🇰 香港-C6E7A7E9
   - 🇯🇵 日本 | JPN 2
-  - 🇸🇬 新加坡 | SGP 7
-  - 🇸🇬 新加坡 | SGP
-  - 🇸🇬 新加坡 | SGP 8
-  - 🇸🇬SG新加坡丨yoyapai.com_1
+  - 🇭🇰HK香港節點丨yoyapai.com_5
   - 🇸🇬 新加坡 | SGP 3
+  - 🇸🇬SG新加坡丨yoyapai.com_1
   - 🇯🇵 日本-6783195D
   - 🇯🇵 日本-CC40E05D
   - 🇭🇰 香港 | HKG
-  - 🇸🇬 新加坡 | SGP 2
   - 🇺🇸美國丨yoyapai.com_1
-  - 🇺🇸 美国 | USA 11
-  - 🇺🇸US美國丨yoyapai.com_6
-  - us|ea36|puddincat07@Telegram
   - 🇺🇸 美国-2844BECE
-  - us|b395|puddincat07@Telegram
-  - us|cf65|puddincat07@Telegram
+  - 🇺🇸US美國丨yoyapai.com_6
+  - us|01ca|puddincat07@Telegram
   - 🇺🇸 美国 | USA 7
   - us|2a14|puddincat07@Telegram
+  - us|9f71|puddincat07@Telegram
   - us|cc28|puddincat07@Telegram
   - 🇺🇸 美国 | USA 5
   - 🇺🇸 美国 | USA 4
+  - us|2e5f|puddincat07@Telegram
   - us|246e|puddincat07@Telegram
+  - us|1c92|puddincat07@Telegram
   - 🇺🇸 美国 | USA 13
   - us|108b|puddincat07@Telegram
-  - 🇺🇸US美国丨yoyapai.com
   - 🇺🇸 美國節點丨yoyapai.com
+  - 🇺🇸US美国丨yoyapai.com
   - 🇺🇸 美国-185EF251
-  - 🇺🇸 美国 | USA 15
-  - us|8d21|puddincat07@Telegram
-  - us|2fd2|puddincat07@Telegram
+  - us|98c8|puddincat07@Telegram
   - 🇺🇸 美国 | USA 2
+  - us|2220|puddincat07@Telegram
   - 🇨🇦 加拿大 | CAN 2
-  - 🏴‍☠️ 未知地区 | Unknown
-  - gb|37b9|puddincat07@Telegram
+  - 🇰🇷 韩国 | KOR 2
   - 🇨🇦CA加拿大丨yoyapai.com_5
-  - ❓未知丨yoyapai.com_15
   - 🇳🇱 荷兰 | NLD
   - 🇳🇱 荷兰 | NLD 4
-  - 🇨🇦 加拿大 | CAN
   - 🇰🇷 韩国 | KOR 3
-  - 🇩🇰 丹麦 | DNK 2
+  - xx|c122|puddincat07@Telegram
+  - 🇨🇦 加拿大 | CAN
   - 🏁 未知-91A471F0
-  - 🇮🇷 IR伊朗丨yoyapai.com
-  - 🇨🇦CA加拿大丨yoyapai.com_6
-  - 🇩🇪 德国 | DEU 5
-  - 🇵🇱PL波兰丨yoyapai.com
   - 🏁 未知-798A29E5
-  - 🇳🇱_NL荷蘭丨yoyapai.com
+  - 🇮🇷 IR伊朗丨yoyapai.com
+  - 🇵🇱PL波兰丨yoyapai.com
+  - 🇩🇪 德国 | DEU 5
   - 🏁 未知-8015D2B7
-  - 🇩🇪_德国丨yoyapai.com
-  - ca|b394|puddincat07@Telegram
+  - 🇳🇱_NL荷蘭丨yoyapai.com
+  - 🇨🇦CA加拿大丨yoyapai.com_6
   - 🇰🇷 韩国-01958B5F
-  - 🇸🇪瑞典丨yoyapai.com
-  - 🇩🇪 德国 | DEU 8
   - nl|7363|puddincat07@Telegram
-  - 🇮🇹 意大利 | ITA
-  - ❓未知丨yoyapai.com_12
   - 🇵🇱 波兰 | POL 2
   - 🇦🇱 AL_41
+  - ❓未知丨yoyapai.com_12
   - 🇧🇷 巴西 | BRA
   - 🇸🇪 瑞典 | SWE
-  - 🇬🇧 英国 | GBR 2
   - 🇳🇱 荷兰 | NLD 6
   - 🇪🇪爱沙尼亚丨yoyapai.com
-  - 🇫🇷法國丨yoyapai.com
-  - 🇳🇱 荷兰 | NLD 2
   - 🇹🇭 泰国 | THA
+  - 🇩🇪 德国 | DEU 9
+  - xx|0c76|puddincat07@Telegram
   - 🇱🇻 拉脱维亚 | LVA 2
-  - 🇱🇻 拉脱维亚 | LVA
   - 🇨🇳 中国-D0742003
   - 🇬🇧 英国 | GBR 3
   - 🇹🇷 土耳其 | TUR 2
-  - ru|322a|puddincat07@Telegram
   - 🇬🇧 英国 | GBR
-  - 🇹🇭 Thailand泰国丨yoyapai.com
   - 🏁 未知-6F72A411
   - 🇩🇪 德国 | DEU 12
-  - 🇳🇱 荷兰 | NLD 5
   - 🇰🇷 韩国-8C051E25
+  - 🇳🇱 荷兰 | NLD 5
   - 🇰🇷 韩国-B33A9C54
   url: http://www.gstatic.com/generate_204
   interval: 120
@@ -1143,8 +927,8 @@ proxy-groups:
   proxies:
   - 🇭🇰HK香港節點丨yoyapai.com_4
   - 🇭🇰 香港-1E3D1CFC
-  - 🇭🇰HK香港節點丨yoyapai.com_5
   - 🇭🇰 香港-C6E7A7E9
+  - 🇭🇰HK香港節點丨yoyapai.com_5
   - 🇭🇰 香港 | HKG
   url: http://www.gstatic.com/generate_204
   interval: 120
@@ -1162,49 +946,45 @@ proxy-groups:
   type: url-test
   proxies:
   - 🇺🇸美國丨yoyapai.com_1
-  - 🇺🇸 美国 | USA 11
-  - 🇺🇸US美國丨yoyapai.com_6
-  - us|ea36|puddincat07@Telegram
   - 🇺🇸 美国-2844BECE
-  - us|b395|puddincat07@Telegram
-  - us|cf65|puddincat07@Telegram
+  - 🇺🇸US美國丨yoyapai.com_6
+  - us|01ca|puddincat07@Telegram
   - 🇺🇸 美国 | USA 7
   - us|2a14|puddincat07@Telegram
+  - us|9f71|puddincat07@Telegram
   - us|cc28|puddincat07@Telegram
   - 🇺🇸 美国 | USA 5
   - 🇺🇸 美国 | USA 4
+  - us|2e5f|puddincat07@Telegram
   - us|246e|puddincat07@Telegram
+  - us|1c92|puddincat07@Telegram
   - 🇺🇸 美国 | USA 13
   - us|108b|puddincat07@Telegram
-  - 🇺🇸US美国丨yoyapai.com
   - 🇺🇸 美國節點丨yoyapai.com
+  - 🇺🇸US美国丨yoyapai.com
   - 🇺🇸 美国-185EF251
-  - 🇺🇸 美国 | USA 15
-  - us|8d21|puddincat07@Telegram
-  - us|2fd2|puddincat07@Telegram
+  - us|98c8|puddincat07@Telegram
   - 🇺🇸 美国 | USA 2
+  - us|2220|puddincat07@Telegram
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: AI-POOL
   type: url-test
   proxies:
   - 🇺🇸US美国丨yoyapai.com
-  - 🇨🇦CA加拿大丨yoyapai.com_6
-  - 🇭🇰HK香港節點丨yoyapai.com_4
   - 🇺🇸 美国 | USA 7
   - 🇺🇸 美国 | USA 13
-  - ❓未知丨yoyapai.com_12
+  - 🇨🇦CA加拿大丨yoyapai.com_6
   - 🇭🇰HK香港節點丨yoyapai.com_5
-  - 🇺🇸美國丨yoyapai.com_1
+  - 🇭🇰HK香港節點丨yoyapai.com_4
   - 🇺🇸 美国 | USA 5
-  - ca|b394|puddincat07@Telegram
-  - 🇸🇬 新加坡 | SGP
-  - 🇸🇬 新加坡 | SGP 2
-  - 🇨🇦 加拿大 | CAN 2
-  - 🇸🇬 新加坡 | SGP 5
   - 🇨🇦CA加拿大丨yoyapai.com_5
+  - ❓未知丨yoyapai.com_12
   - 🇮🇷 IR伊朗丨yoyapai.com
-  - 🇨🇦 加拿大 | CAN
+  - 🇺🇸US美國丨yoyapai.com_6
+  - 🏁 未知-798A29E5
+  - 🇺🇸 美国 | USA 2
+  - 🇺🇸 美国-2844BECE
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: FALLBACK
