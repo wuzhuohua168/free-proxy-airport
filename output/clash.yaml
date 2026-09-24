@@ -7,7 +7,7 @@ unified-delay: true
 tcp-concurrent: true
 global-client-fingerprint: chrome
 generated-by: free-proxy-airport-v7
-generated-at: '2026-09-24T21:00:48.866356+00:00'
+generated-at: '2026-09-24T23:49:51.633626+00:00'
 proxies:
 - name: 🇯🇵 日本-24FE6D00
   type: ss
@@ -15,6 +15,20 @@ proxies:
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
+- name: 🇯🇵 日本 | JPN 5
+  server: family.bucket.x1.kfc-520.com
+  port: 10202
+  type: vless
+  uuid: 8cb0c4fb-03ee-35b8-a47b-cd1d7e76dfd3
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: E0R7f_nEkbcnc97Z82aDMo2bUVGgcIzChCVYwsQmXnc
+    short-id: 88bd7f
+  servername: www.apple.com
+  client-fingerprint: firefox
+  network: tcp
+  udp: true
 - name: 🇯🇵 日本-0A19CAC2
   type: vless
   server: 172.111.146.64
@@ -42,13 +56,6 @@ proxies:
   auth: 8cb0c4fb-03ee-35b8-a47b-cd1d7e76dfd3
   sni: hk01.kfc-520.com
   skip-cert-verify: true
-- name: 🇯🇵 日本 | JPN 8
-  server: 74.222.12.141
-  port: 2087
-  type: ss
-  cipher: aes-256-gcm
-  password: 665e00335bb2fb5f7ee8243952205e5e
-  udp: true
 - name: 🇭🇰 香港-C6E7A7E9
   type: hysteria2
   server: 202.146.222.174
@@ -57,6 +64,13 @@ proxies:
   skip-cert-verify: true
   sni: https://t.me/WangCai2🇨🇳
   tfo: false
+- name: 🇯🇵 日本 | JPN 6
+  server: 3.112.209.209
+  port: 443
+  type: ss
+  cipher: aes-256-cfb
+  password: amazonskr05
+  udp: true
 - name: 🇯🇵 日本 | JPN 3
   server: 103.137.215.122
   port: 443
@@ -92,14 +106,6 @@ proxies:
   auth: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
   sni: www.microsoft.com
   skip-cert-verify: true
-- name: us|c3d4|puddincat07@Telegram
-  password: suAmQS9LlInNq4Wumh-FUF4GGlpgmG_g
-  port: 8443
-  server: 159.223.157.129
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  tls: false
-  type: hysteria2
 - name: 🇺🇸 美国-2844BECE
   type: hysteria2
   server: hy2.123266.xyz
@@ -108,6 +114,14 @@ proxies:
   skip-cert-verify: true
   sni: hy2.123266.xyz
   tfo: false
+- name: us|c3d4|puddincat07@Telegram
+  password: suAmQS9LlInNq4Wumh-FUF4GGlpgmG_g
+  port: 8443
+  server: 159.223.157.129
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  tls: false
+  type: hysteria2
 - name: us|d4f7|puddincat07@Telegram
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
@@ -142,6 +156,17 @@ proxies:
     headers:
       Host: llm-api.sofurry.dpdns.org
   udp: true
+- name: 🇺🇸 美国 | USA 5
+  server: www.whatismyip.net
+  port: 2095
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: llm-api.sofurry.dpdns.org
 - name: 🇺🇸US美国丨yoyapai.com
   type: trojan
   server: 216.24.57.7
@@ -154,17 +179,6 @@ proxies:
   ws-opts:
     path: /assignment
   udp: true
-- name: 🇺🇸 美国 | USA 5
-  server: www.whatismyip.net
-  port: 2095
-  type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: llm-api.sofurry.dpdns.org
 - name: 🇺🇸 美国 | USA 19
   server: blog.cloudflare.com
   port: 2095
@@ -209,13 +223,6 @@ proxies:
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
   udp: true
-- name: ro|e70d|puddincat07@Telegram
-  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
-  port: 8443
-  server: 85.204.107.177
-  sni: hopp-romania-new.roxa.org
-  tls: false
-  type: hysteria2
 - auth: my_super_password_123
   name: xx|e524|puddincat07@Telegram
   password: my_super_password_123
@@ -225,26 +232,25 @@ proxies:
   sni: open.w2m.ink
   type: hysteria2
   udp: true
-- name: xx|3972|puddincat07@Telegram
-  password: HysTeria2026!Proxy
+- name: ro|e70d|puddincat07@Telegram
+  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   port: 8443
-  server: mz.hkychina.com
-  skip-cert-verify: false
-  sni: mz.hkychina.com
+  server: 85.204.107.177
+  sni: hopp-romania-new.roxa.org
   tls: false
   type: hysteria2
-- name: 🇩🇪 德国 | DEU 7
-  server: 188.114.97.3
-  port: 2052
+- name: 🇮🇷 伊朗 | IRN
+  server: fr.masterpgd.com
+  port: 6010
   type: vless
-  uuid: 51ff8dc9-6bc3-4d09-bf45-5def89e910eb
+  uuid: d2bf8658-06dc-4462-80d4-39c5c3bb0dd8
   tls: false
-  network: ws
-  ws-opts:
-    path: /wss
-    headers:
-      Host: nexoservice.zandix.ir
-    v2ray-http-upgrade: true
+  encryption: mlkem768x25519plus.random.0rtt.4ZiK3Dv6QqgU4hTboAe80H0CPJ6KV_GUdsjOCLY3UlA
+  network: xhttp
+  xhttp-opts:
+    path: /assets
+    host: myket.ir
+    mode: stream-up
   udp: true
 - name: xx|7c54|puddincat07@Telegram
   obfs: salamander
@@ -264,19 +270,6 @@ proxies:
   sni: ''
   tls: false
   type: hysteria2
-- name: 🇮🇱 以色列 | ISR
-  server: platform115.golnamakcert.top
-  port: 80
-  type: vless
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  tls: false
-  servername: platform115.halalkhor.info
-  network: ws
-  ws-opts:
-    path: /platform115
-    headers:
-      Host: platform115.halalkhor.info
-  udp: true
 - name: 🇱🇻LV拉脱维亚丨yoyapai.com
   type: vless
   server: 193.163.203.170
@@ -290,6 +283,19 @@ proxies:
     public-key: GCCZ1ZZjB_nj7yxqFi22bIIWWr_G6rnWUzDcssN_40o
     short-id: b28db60d77c50b4f
   skip-cert-verify: false
+  udp: true
+- name: 🇮🇱 以色列 | ISR
+  server: platform115.golnamakcert.top
+  port: 80
+  type: vless
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  tls: false
+  servername: platform115.halalkhor.info
+  network: ws
+  ws-opts:
+    path: /platform115
+    headers:
+      Host: platform115.halalkhor.info
   udp: true
 - name: 🇷🇺 俄罗斯 | RUS
   server: fbsv6.guardora.pro
@@ -307,19 +313,19 @@ proxies:
     headers:
       Host: fbsv6.guardora.pro
   udp: true
+- name: 🏁 未知-798A29E5
+  type: hysteria2
+  server: 155.248.209.237
+  port: 33333
+  password: bce6c821-200d-421f-bf3d-7159e5246ea0
+  skip-cert-verify: true
+  sni: hy2.123266.xyz
+  tfo: false
 - name: xx|8727|puddincat07@Telegram
   password: 1beb216e3f60aea9555dae60d219a5ca
   port: 50160
   server: 152-69-231-175.liao.kdns.fr
   sni: 152-69-231-175.liao.kdns.fr
-  tls: false
-  type: hysteria2
-- name: xx|f25c|puddincat07@Telegram
-  password: BWAFlp8g53
-  port: 443
-  server: hys28.wba-pn.ru
-  skip-cert-verify: true
-  sni: hys28.wba-pn.ru
   tls: false
   type: hysteria2
 - auth: my_super_password_123
@@ -328,6 +334,14 @@ proxies:
   port: 5443
   server: open.2ml.cc.cd
   skip-cert-verify: true
+  type: hysteria2
+- name: xx|f25c|puddincat07@Telegram
+  password: BWAFlp8g53
+  port: 443
+  server: hys28.wba-pn.ru
+  skip-cert-verify: true
+  sni: hys28.wba-pn.ru
+  tls: false
   type: hysteria2
 - name: gb|d819|puddincat07@Telegram
   obfs: salamander
@@ -354,14 +368,21 @@ proxies:
     public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
   skip-cert-verify: false
   udp: true
-- name: 🏁 未知-798A29E5
-  type: hysteria2
-  server: 155.248.209.237
-  port: 33333
-  password: bce6c821-200d-421f-bf3d-7159e5246ea0
+- name: ro|70e4|puddincat07@Telegram
+  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+  port: 8443
+  server: 85.204.107.170
   skip-cert-verify: true
-  sni: hy2.123266.xyz
-  tfo: false
+  sni: hopp-romania-new.roxa.org
+  tls: false
+  type: hysteria2
+- name: xx|51ca|puddincat07@Telegram
+  password: CnVfXXvMzh
+  port: 443
+  server: hys13.wba-pn.ru
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
 - name: ro|e039|puddincat07@Telegram
   password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   port: 8443
@@ -449,6 +470,13 @@ proxies:
   skip-cert-verify: true
   sni: https://t.me/WangCai2🇨🇳
   tfo: false
+- name: ro|4d15|puddincat07@Telegram
+  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+  port: 8443
+  server: 85.204.107.183
+  sni: hopp-romania-new.roxa.org
+  tls: false
+  type: hysteria2
 - name: 🇩🇪DE德国丨yoyapai.com_12
   type: vless
   server: 169.40.42.229
@@ -463,53 +491,48 @@ proxies:
     short-id: c39cc7310a
   skip-cert-verify: false
   udp: true
-- name: ro|4d15|puddincat07@Telegram
-  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
-  port: 8443
-  server: 85.204.107.183
-  sni: hopp-romania-new.roxa.org
-  tls: false
-  type: hysteria2
 proxy-groups:
 - name: AUTO-FAST
   type: url-test
   proxies:
   - 🇯🇵 日本-24FE6D00
+  - 🇯🇵 日本 | JPN 5
   - 🇯🇵 日本-0A19CAC2
   - 🇭🇰 香港-1E3D1CFC
   - 🇭🇰 香港 | HKG 3
-  - 🇯🇵 日本 | JPN 8
   - 🇭🇰 香港-C6E7A7E9
+  - 🇯🇵 日本 | JPN 6
   - 🇯🇵 日本 | JPN 3
   - 🇯🇵 日本 | JPN 4
   - 🇯🇵 日本-6783195D
   - 🇯🇵 日本 | JPN
-  - us|c3d4|puddincat07@Telegram
   - 🇺🇸 美国-2844BECE
+  - us|c3d4|puddincat07@Telegram
   - us|d4f7|puddincat07@Telegram
   - 🇺🇸 美国 | USA 6
   - 🇺🇸 美国 | USA 7
-  - 🇺🇸US美国丨yoyapai.com
   - 🇺🇸 美国 | USA 5
+  - 🇺🇸US美国丨yoyapai.com
   - 🇺🇸 美国 | USA 19
   - 🇺🇸 美国 | USA 13
   - 🇺🇸 美国-185EF251
   - 🇺🇸 美国 | USA 22
-  - ro|e70d|puddincat07@Telegram
   - xx|e524|puddincat07@Telegram
-  - xx|3972|puddincat07@Telegram
-  - 🇩🇪 德国 | DEU 7
+  - ro|e70d|puddincat07@Telegram
+  - 🇮🇷 伊朗 | IRN
   - xx|7c54|puddincat07@Telegram
   - xx|82a1|puddincat07@Telegram
-  - 🇮🇱 以色列 | ISR
   - 🇱🇻LV拉脱维亚丨yoyapai.com
+  - 🇮🇱 以色列 | ISR
   - 🇷🇺 俄罗斯 | RUS
+  - 🏁 未知-798A29E5
   - xx|8727|puddincat07@Telegram
-  - xx|f25c|puddincat07@Telegram
   - xx|5f1b|puddincat07@Telegram
+  - xx|f25c|puddincat07@Telegram
   - gb|d819|puddincat07@Telegram
   - 🇵🇱PL波兰丨yoyapai.com
-  - 🏁 未知-798A29E5
+  - ro|70e4|puddincat07@Telegram
+  - xx|51ca|puddincat07@Telegram
   - ro|e039|puddincat07@Telegram
   - 🇰🇷 韩国-01958B5F
   - 🇩🇪 德国 | DEU 6
@@ -519,8 +542,8 @@ proxy-groups:
   - 🇫🇷 法国 | FRA
   - 🇩🇪 德国 | DEU 9
   - 🇨🇳 中国-D0742003
-  - 🇩🇪DE德国丨yoyapai.com_12
   - ro|4d15|puddincat07@Telegram
+  - 🇩🇪DE德国丨yoyapai.com_12
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: HK-POOL
@@ -535,8 +558,9 @@ proxy-groups:
   type: url-test
   proxies:
   - 🇯🇵 日本-24FE6D00
+  - 🇯🇵 日本 | JPN 5
   - 🇯🇵 日本-0A19CAC2
-  - 🇯🇵 日本 | JPN 8
+  - 🇯🇵 日本 | JPN 6
   - 🇯🇵 日本 | JPN 3
   - 🇯🇵 日本 | JPN 4
   - 🇯🇵 日本-6783195D
@@ -546,13 +570,13 @@ proxy-groups:
 - name: US-POOL
   type: url-test
   proxies:
-  - us|c3d4|puddincat07@Telegram
   - 🇺🇸 美国-2844BECE
+  - us|c3d4|puddincat07@Telegram
   - us|d4f7|puddincat07@Telegram
   - 🇺🇸 美国 | USA 6
   - 🇺🇸 美国 | USA 7
-  - 🇺🇸US美国丨yoyapai.com
   - 🇺🇸 美国 | USA 5
+  - 🇺🇸US美国丨yoyapai.com
   - 🇺🇸 美国 | USA 19
   - 🇺🇸 美国 | USA 13
   - 🇺🇸 美国-185EF251
@@ -563,14 +587,14 @@ proxy-groups:
   type: url-test
   proxies:
   - 🇺🇸US美国丨yoyapai.com
-  - us|c3d4|puddincat07@Telegram
   - 🇺🇸 美国 | USA 22
-  - 🇩🇪DE德国丨yoyapai.com_12
-  - 🇺🇸 美国-2844BECE
   - 🏁 未知-798A29E5
-  - xx|f25c|puddincat07@Telegram
-  - 🇦🇺AU澳大利亚丨yoyapai.com
-  - 🇺🇸 美国 | USA 19
+  - 🇺🇸 美国-2844BECE
+  - 🇯🇵 日本-24FE6D00
+  - 🇯🇵 日本-6783195D
+  - 🇯🇵 日本 | JPN 6
+  - 🇯🇵 日本 | JPN 4
+  - 🇩🇪DE德国丨yoyapai.com_12
   url: http://www.gstatic.com/generate_204
   interval: 120
 - name: FALLBACK
